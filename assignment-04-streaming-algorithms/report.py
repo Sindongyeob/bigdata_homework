@@ -19,7 +19,7 @@ from reportlab.platypus import (
 
 from benchmark import RESULTS, ROOT
 
-REPO = "https://github.com/Sindongyeob/bigdata_homework/tree/main/assignment-04"
+REPO = "https://github.com/Sindongyeob/bigdata_homework/tree/main/assignment-04-streaming-algorithms"
 DATASET = "https://grouplens.org/datasets/movielens/1m/"
 BLOOM_PAPER = "https://doi.org/10.1145/362686.362692"
 CMS_PAPER = "https://doi.org/10.1016/j.jalgor.2003.12.001"

@@ -9,7 +9,7 @@ Python 3.12에서 이 폴더로 이동한 뒤 아래 명령을 실행합니다.
 ```sh
 python -m pip install -r requirements.txt
 python experiment.py
-python report.py --repo-url https://github.com/Sindongyeob/bigdata_homework/tree/main/assignment-03
+python report.py --repo-url https://github.com/Sindongyeob/bigdata_homework/tree/main/assignment-03-feature-engineering
 ```
 
 `experiment.py`는 고정된 [공개 CSV 사본](https://github.com/datasciencedojo/datasets/blob/f0ccab6a7ceafdff780052166fb6fab3311398eb/titanic.csv)을 내려받고, `results/`에 평가 지표와 그림을 생성합니다. 기존 CSV를 쓰려면 `--csv`를 지정합니다. `report.py`는 Windows의 맑은 고딕을 기본으로 사용합니다. 다른 환경에서는 한글 TrueType 글꼴 파일을 `--font`로 지정합니다. 저장소 주소는 실제 공개 또는 채점자가 접근 가능한 주소를 사용합니다. `--repo-url`을 생략하면 미등록 상태가 PDF에 표시됩니다.
