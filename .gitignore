@@ -2,5 +2,5 @@
 __pycache__/
 *.pyc
 results/
-data/titanic.csv
+data/
 *.pdf
